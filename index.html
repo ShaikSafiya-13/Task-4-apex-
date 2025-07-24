@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>About Me</h1>
+    <p>Hello! I'm a web developer passionate about creating beautiful and functional websites.</p>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="project-list">
+      <div class="project-item">
+        <h2>Project One</h2>
+        <p>A cool project description here.</p>
+      </div>
+      <div class="project-item">
+        <h2>Project Two</h2>
+        <p>Another project description here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <form id="contact-form">
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required /><br/>
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required /><br/>
+      <label for="message">Message:</label><br/>
+      <textarea id="message" name="message" rows="5" required></textarea><br/>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
